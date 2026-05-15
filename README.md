@@ -26,10 +26,10 @@ Aquí se establecen las coordenadas de los geófonos y del tiro. Por obvias razo
 
 Se debe armar con la tecla 1 para habilitar el golpe. En esta instancia el color de la parte inferior de la barra es verde y en el golpe cambia a amarillo.
 
-El programa pregunta si se desea terminar, se indica que no para que continue con más disparos y hacer un stacking con estos. Cuando el valor convence al operador, entonces se almacenan los datos en un archivo .dat que contiene el tiro stackeado.
+El programa pregunta si se desea hacer un "unstacking", se indica que no para que continue con más disparos y hacer el stacking con estos. Cuando el valor convence al operador, entonces se almacenan los datos en un archivo .dat que contiene el tiro stackeado.
 
 ## Display
 
-En cada tiro, la ondicula puede visualizarse individualmente traza por traza. La opción ofrece un desplazamiento lateral a lo largo de cada canal usando las flechas derecha e izquierda, iluminada de color verde. En el canal actualmente seleccionado, las flechas arriba y abajo permite aumentar la amplitud de esa traza especifica.
+En cada tiro, la ondicula puede visualizarse individualmente traza por traza. La opción ofrece un desplazamiento lateral a lo largo de cada canal usando las flechas derecha e izquierda, iluminando de color verde cada traza. En el canal actualmente seleccionado, las flechas arriba y abajo permite aumentar la amplitud de esa traza especifica.
 
-En esta pestaña también pueden modificarse la ventana que se visualiza como se había adelante anteriormente en la configuración inicial.
+En esta pestaña también pueden modificarse las dimensiones de la ventana del display ("boundaries"), como se había mencionado anteriormente en la configuración inicial.
