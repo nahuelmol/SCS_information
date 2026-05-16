@@ -33,3 +33,34 @@ El programa pregunta si se desea hacer un "unstacking", se indica que no para qu
 En cada tiro, la ondicula puede visualizarse individualmente traza por traza. La opción ofrece un desplazamiento lateral a lo largo de cada canal usando las flechas derecha e izquierda, iluminando de color verde cada traza. En el canal actualmente seleccionado, las flechas arriba y abajo permite aumentar la amplitud de esa traza especifica.
 
 En esta pestaña también pueden modificarse las dimensiones de la ventana del display ("boundaries"), como se había mencionado anteriormente en la configuración inicial.
+
+# Syscal
+
+Una vez hechas las conecciones se enciende el equipo (interruptor on/off). En caso de haber datos grabados, se procede a su eliminación o extracción para comenzar a grabar desde 0. En todo caso se puede continuar con la grabación anterior de datos aunque se prefiere lo primero para tener mayor control de la memoria del equipo ya que es bastante limitada.
+
+Para eliminar datos se navega a la pestaña "Memory", de ella se va a "Delete data". Lo proximo será una pregunta, entre que puntos se encuentran los datos a eliminar. Ingresarlos y confirmar.
+
+## Mode
+
+Es importante el seteo del modo de survey o protocolo. Para lo cual se elige PINCHAR36, ya que en este caso se trabaja con 36 electrodos/conectores.
+
+PINCHAR36 es un procolo de revisión para verificar el estado de las conexiones de cada electrodo. 
+
+## Survey
+
+Una vez elegido el protocolo se da inicio al survey con START, esto da comienzo a la revisión mencionada anteriormente, antes preguntara si queremos cambiar el nombre del survey o los limites de puntos. En negro se marcaran aquellos que muestren resistividades altas (999.999 kOhm), demostrando que no existe conductividad y ese electrodo debe revisarse. 
+
+## Medición
+
+Se debe cambiar el protocolo con la opción Mode, ya sea a Wenner o Sch. Luego con Start se da comienzo al survey, para lo cual cambiaremos
+su nombre. La medición comienzo y los datos se guardan.
+
+## Finalizando
+
+El archivo se guarda automaticamente. El equipo se apaga y desconecta. El survey termino.
+
+## Los datos del survey
+
+Solo resta obtener los datos, para cual se utiliza un adaptador a SD card. Debe hacerse la descarga de datos en download data.
+
+Listo, los datos pueden accederse conectado la SD card a la PC.
