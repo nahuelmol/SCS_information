@@ -44,7 +44,7 @@ Para eliminar datos se navega a la pestaña "Memory", de ella se va a "Delete da
 
 Es importante el seteo del modo de survey o protocolo. Para lo cual se elige PINCHAR36, ya que en este caso se trabaja con 36 electrodos/conectores.
 
-PINCHAR36 es un procolo de revisión para verificar el estado de las conexiones de cada electrodo. 
+PINCHAR36 no es estrictamente un procolo. Se trata de un Wenner de revisión que verifica el estado de las conexiones. De esta manera tomo cada 4 electrodos y de su combinación se obtiene un valor de resisitividad. 
 
 ## Survey
 
